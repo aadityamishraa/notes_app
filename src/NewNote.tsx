@@ -1,5 +1,14 @@
 import NoteForm from "./NoteForm"
 
+
+type Note ={
+  data: String
+};
+
+type NewNote={
+  title: string,
+  markdown: string
+};
 const NewNote = () => {
   return (
     <>
